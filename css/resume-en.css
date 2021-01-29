@@ -1,0 +1,40 @@
+:root{
+    --size-perfil: 180px;
+    --color-black: rgb(59, 59, 59)
+}
+
+main {
+    background-color:var(--color-black);
+    color: white;
+}
+
+#choose-language {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.img-profile {
+    border: solid 3px white;
+}
+
+.title {
+    background-color: white;
+    color: var(--color-black);
+}
+
+@media screen and (min-width: 1200px){
+    main {
+        flex-wrap: nowrap;
+    }
+
+    .column1 {
+        border-right: 1px solid white;
+    }
+    
+    .column2 {
+        border-right: 1px solid white;
+    }
+}

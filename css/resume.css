@@ -11,6 +11,13 @@ main {
     padding: 0 1.5rem;
 }
 
+#choose-language {
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    cursor: pointer;
+}
+
 a {
     text-decoration: none;
     color: var(--color-black);
@@ -83,16 +90,24 @@ a {
     align-items: center;
 }
 
-.category-info p{
-    margin: 10px 0 10px 0;
-}
-
 .paragraph {
     line-height: 1.8rem;
+    /*text-indent: 20px;*/
+    margin: 0;
+    padding: 0;
 }
 
 .list {
     display: flex;
+}
+
+.skill-item li:first-child {
+    cursor: pointer;
+    transition: .15s;
+}
+
+.skill-item li:first-child:hover{
+    transform: scale(1.1);
 }
 
 #courses p, #education p {
@@ -132,6 +147,12 @@ a {
     align-items: center;
     margin: 10px;
     text-align: center;
+}
+
+.icon-hobby {
+    margin-bottom: 10px;
+    position: relative;
+    top: 0px;
 }
 
 @media screen and (min-width: 768px){
