@@ -35,7 +35,11 @@ a {
  width: var(--size-perfil);
  border: solid 3px var(--color-black);
  border-radius: 50%;
- margin: 5px 20px 10px 0;
+/* margin: 5px 20px 10px 0;*/
+}
+
+.circle-off {
+     margin: 5px 20px 10px 0;
 }
 
 .info-title1{

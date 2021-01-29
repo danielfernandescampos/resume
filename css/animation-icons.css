@@ -1,0 +1,15 @@
+.icon-move {
+    animation: animate-icon .4s ease-in-out infinite;
+}
+
+@keyframes animate-icon {
+    0%{
+        transform: translateY(2px)
+    }
+    50%{
+        transform: translateY(-4px)
+    }
+    100%{
+        transform: translateY(2px)
+    }
+}

@@ -3,6 +3,18 @@
     --color-black: rgb(59, 59, 59)
 }
 
+.circle span:nth-child(1){
+    border: 2px solid white; 
+}
+
+.circle span:nth-child(2){
+    border: 2px solid white;
+}
+
+.circle span:nth-child(3){
+    border: 2px solid white;
+}
+
 main {
     background-color:var(--color-black);
     color: white;
