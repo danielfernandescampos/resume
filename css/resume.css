@@ -9,6 +9,7 @@ main {
     font-family: sans-serif;
     font-size: 1.2rem;
     padding: 0 1.5rem;
+    transition: .25s;
 }
 
 #choose-language {
@@ -20,7 +21,7 @@ main {
 
 a {
     text-decoration: none;
-    color: var(--color-black);
+    color: black;
 }
 
 .personal-container {
