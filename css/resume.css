@@ -9,6 +9,9 @@ main {
     font-family: sans-serif;
     font-size: 1.2rem;
     padding: 0 1.5rem;
+}
+
+body {
     transition: .25s;
 }
 
@@ -158,6 +161,10 @@ a {
     margin-bottom: 10px;
     position: relative;
     top: 0px;
+}
+
+.category-info {
+    transition: .08s;
 }
 
 @media screen and (min-width: 768px){

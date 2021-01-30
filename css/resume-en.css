@@ -15,7 +15,7 @@
     border: 2px solid white;
 }
 
-main {
+body {
     background-color:var(--color-black);
     color: white;
 }
