@@ -167,6 +167,28 @@ a {
     transition: .08s;
 }
 
+/*.ul-skills {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.skill-item {
+    margin: 1.2rem 2rem 1.2rem 0;
+}
+
+.skill1 {
+    font-size: 1.2rem;
+}
+
+.skill2 {
+    font-size: 1.5rem;
+}
+
+.skill3 {
+    font-size: 2.2rem;
+}*/
+
 @media screen and (min-width: 768px){
     .personal-container {
         flex-wrap: nowrap;
@@ -212,6 +234,11 @@ a {
         padding: 1.5rem;
         display: block;
     }
+
+    .ul-skills {
+        display: block;
+        align-items: center;
+    }     
     #skills {
         width: 100%;
     }
